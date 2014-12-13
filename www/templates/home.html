@@ -1,0 +1,15 @@
+<ion-view title="Chat App" left-buttons="leftButtons" right-buttons="rightButtons">
+    <ion-content has-header="true">
+      <div class="list">
+        <label class="item item-input">
+          <span class="input-label">Username</span>
+          <input type="text" ng-model="user.username">
+        </label>
+      </div>
+      <div class="padding">
+        <button class="button button-block button-positive" ng-click="signIn(user.username)">
+          Sign-In
+        </button>
+      </div>
+    </ion-content>
+</ion-view>
